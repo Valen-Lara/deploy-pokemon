@@ -1,0 +1,116 @@
+.Detail{
+    /* background-image: url("https://cdn.wallpapersafari.com/99/41/szPbS2.jpg"); */
+    height: 100vh;
+    margin-top:-45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    position: absolute;
+    
+    
+}
+
+.backImg{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+
+    background-image: url("https://www.jotdown.es/wp-content/uploads/2020/06/pokemon-ash-pokeball-800x450.jpg"); 
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+.allDetail{
+    text-decoration: none;
+    
+}
+
+.name{
+    font-size:50px;
+    color: blue;
+    -webkit-text-stroke: 2px yellow;
+    margin-bottom: 10px;
+}
+.name::first-letter{
+    text-transform: uppercase;
+}
+
+.ataque{
+    
+}
+
+.defensa{
+
+}
+
+.vida{
+
+}
+
+.velocidad{
+
+}
+
+.altura{
+
+}
+
+.peso{
+
+}
+
+.imagen{
+    max-width:350px;
+    max-height:350px;
+}
+
+.backBtn{
+    font-size: 30px;
+    border: 2px solid black;
+    width: 90px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.conteiner{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.conteiner h3{
+    margin:10px;
+    
+}
+
+.allConteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.cargando{
+    color: blue;
+    font-size: 20px;
+}
+
+.backBtn{
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 15px;
+    background-color: blue;
+    color:yellow;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    margin: auto;
+}

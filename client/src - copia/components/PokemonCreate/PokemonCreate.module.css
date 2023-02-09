@@ -1,0 +1,172 @@
+.backImg{
+    
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("https://www.diariotiempo.com.ar/wp-content/uploads/2022/05/Un-fanatico-de-Pokemon-hace-un-impresionante-%C2%BFQuien-es-ese.jpg"); 
+    background-attachment: fixed;
+    background-position: center center;
+    position: absolute;
+}
+
+.createPokemon{
+    color:rgb(36, 100, 219);
+    -webkit-text-stroke: 1.3px black;
+}
+
+.nombre{
+  -webkit-text-stroke: 0.75px black;
+  font-size: large;
+}
+.vida{
+    /* display: flex; */
+    font-size:large;
+    -webkit-text-stroke: 0.75px black;
+    
+}
+.ataque{
+   
+    font-size:large;
+    -webkit-text-stroke: 0.75px black;
+}
+.defensa{
+   
+    font-size:large;
+    -webkit-text-stroke: 0.75px black;
+}
+.velocidad{
+   
+    font-size:large;
+    -webkit-text-stroke: 0.75px black;
+}
+.altura{
+    
+    font-size:large;
+    -webkit-text-stroke: 0.75px black;
+}
+.peso{
+   
+    font-size:large;
+    -webkit-text-stroke: 0.75px black;
+}
+.imagen{
+   
+    font-size:large;
+    -webkit-text-stroke: 0.75px black;
+}
+
+.submitButton{
+    margin:10px;
+    width: 100px;
+    height: 45px;
+    color: blue;
+    border: 2.5px solid blue;
+    -webkit-text-stroke: 1px;
+    background-color: rgba(255, 255, 0, 0.616) ;
+    transition-duration: 0.4s;
+    top: 20px;
+    right: 30px;
+    border-radius: 10px;
+}
+
+.submitButton:hover{
+    color:rgb(12, 19, 19);
+    background-color: rgba(59, 230, 230, 0.801);
+}
+
+
+.types{
+    color: rgb(0, 0, 0);
+    margin: 2px;
+    font-size: 20px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    line-height:0.1cm;
+    width: 300px;
+    position:relative;
+    left:100px;
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+.tipos:first-letter{
+    text-transform: uppercase;
+}
+
+
+
+.btnX{
+    background-color:white ;
+    color: black;
+    border: 2px solid red;
+    cursor:pointer;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 0px;
+    border-radius: 6px;
+    height: 44px;
+    width: 9%;
+}
+
+.btnX:hover{
+    background-color: red;
+    color: white;
+}
+
+/* CSS */
+.btnInicio {
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    color: yellow;
+    border: 2.5px solid yellow;
+    -webkit-text-stroke: 1px;
+    background-color: rgba(0, 0, 255, 0.678) ;
+    transition-duration: 0.4s;
+    top: 20px;
+    right: 30px;
+    border-radius: 10px;
+}
+
+.btnInicio:hover{
+    color: blue;
+    background-color: rgba(255, 255, 0, 0.699);
+    border: 2.5px solid rgb(0, 0, 255, 0.678);
+}
+
+
+.noLine{
+    text-decoration: none;
+}
+
+.divRange{
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+}
+
+.allConteiner{
+    top: 50px;
+}
+
+.pruebaIzq{
+    width: 500px;
+    margin-left: 100px;
+    
+}
+
+.nameError{
+    position: absolute;
+    top:69px;
+    left: 200px;
+}
+
+.inputVida{
+    margin-top:-30px;
+}
+
+.inputHpNum{
+    margin-top:20px;
+}

@@ -1,0 +1,29 @@
+.barraB{
+    
+}
+.barra{
+    background-color: rgba(26, 39, 226, 0.911);
+    color:yellow;
+    border: 2px solid yellow;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+}
+
+.btnBuscar{
+    position: sticky;
+    left: 370px;
+    float: center;
+    width: 75px;
+    padding: 9px;
+    margin: 2px;
+    background: rgba(26, 39, 226, 0.911);
+    border-radius: 7px;
+    border: 10px solid black;
+    color: white;
+    font-size: 15px;
+    border: 2px solid yellow;
+    cursor: pointer;
+    height: 39px;
+    margin: 15px;
+}

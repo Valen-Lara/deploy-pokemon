@@ -1,0 +1,106 @@
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.backImg{
+    /* background-image: url("http://www.fondoswiki.com/Uploads/fondoswiki.com/Resoluciones/3962-1920x1080.jpg"); */
+   /*  background-image: url("https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2014/06/Pok%C3%A9mon.jpg?fit=640%2C360&quality=80&ssl=1"); */
+    /* background-image: url("https://pm1.narvii.com/7457/6a7795293c255f4ccc49608b3d2e1f5e3310c062r4-565-283_00.jpg"); */
+    background-image: url("https://swordshield.pokemon.com/assets/img/screenshots/10_7_livecamera_7.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    margin-bottom: -20px;
+}
+
+.Pokemones{
+    color:rgb(246, 247, 245);
+    border-color: black;
+    border-radius: 7%;
+}
+
+.botonCrear{
+    border-radius: 9px;
+    display: flex;
+    width: 100px;
+    height: 45px;
+    color: yellow;
+    border: 2.5px solid yellow;
+    -webkit-text-stroke: 1px;
+    background-color: rgba(0, 0, 255, 0.678) ;
+    transition-duration: 0.4s;
+    margin-left: 605px;
+}
+
+.botonCrear:hover{
+    color: blue;
+    background-color: rgba(255, 255, 0, 0.699);
+    border: 2.5px solid rgb(0, 0, 255, 0.678);
+}
+
+.divLinkBtn{
+    width:10px;
+    padding-left: 25px;
+    padding-top:30px;
+}
+
+.noLine{
+    text-decoration: none;
+}
+
+.imgTitle{
+    width: 400px;
+    height: 200px;
+}
+
+.filtroCreados{
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 15px;
+    background-color: blue;
+    color:yellow;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.filtroOrden{
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 15px;
+    background-color: blue;
+    color:yellow;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.filtroTipos{
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 15px;
+    background-color: blue;
+    color:yellow;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btnAllPokemons{
+    border: 2px solid yellow;
+    text-align: center;
+    font-size: 15px;
+    background-color: blue;
+    color:yellow;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 260px;
+    height: 25px;
+}
+
+
